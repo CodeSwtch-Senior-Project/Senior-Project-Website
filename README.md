@@ -9,6 +9,12 @@ Hour Tracking
 
 <style>
 
+.markdown-body table {
+    display: table;
+    width: auto;
+}
+
+    
 table{
     border-collapse: collapse;
     border-spacing: 2;
