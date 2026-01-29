@@ -6,6 +6,7 @@ A website containing the project synopsis, team members and roles, and hours tra
 
 
 Hour Tracking
+
 |                   | Aitan | Uttam | Jarett | Michael | Yi Xhan | Coray |
 | ----------------- | ----- | ----- | ------ | ------- | ------- | ----- |
 | Week 1 1/28 - 2/1 |       |       |        |         |         |       |
