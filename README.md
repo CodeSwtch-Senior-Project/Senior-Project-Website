@@ -8,10 +8,12 @@ A website containing the project synopsis, team members and roles, and hours tra
 Hour Tracking
 
 <style>
+
 table{
     border-collapse: collapse;
     border-spacing: 2;
     border:2px solid #000000;
+    display: table;
 }
 
 th{
