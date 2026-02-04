@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeSwtch - Senior Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="nav-header">
+    <nav class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-text">CodeSwtch</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#synopsis">Synopsis</a>
+        <a href="#team">Team</a>
+        <a href="#time-tracking">Time Tracking</a>
+      </div>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+        <svg class="menu-icon" id="menuIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="4" x2="20" y1="12" y2="12"></line>
+          <line x1="4" x2="20" y1="6" y2="6"></line>
+          <line x1="4" x2="20" y1="18" y2="18"></line>
+        </svg>
+        <svg class="close-icon hidden" id="closeIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 6 6 18"></path>
+          <path d="m6 6 12 12"></path>
+        </svg>
+      </button>
+    </nav>
+    <div class="mobile-nav hidden" id="mobileNav">
+      <a href="#synopsis">Synopsis</a>
+      <a href="#team">Team</a>
+      <a href="#time-tracking">Time Tracking</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <div class="hero-badge">RIT Software Engineering Senior Project</div>
+        <h1 class="hero-title">CodeSwtch</h1>
+        <p class="hero-subtitle">CCSI SaaS Platform for Startups</p>
+        <div class="hero-meta">
+          <div class="meta-item">
+            <span class="meta-label">Team Name</span>
+            <span class="meta-value">Team CodeSwtch</span>
+          </div>
+          <div class="meta-divider"></div>
+          <div class="meta-item">
+            <span class="meta-label">Sponsoring Organization</span>
+            <span class="meta-value">CodeSwtch Capital Ventures</span>
+          </div>
+          <div class="meta-divider"></div>
+          <div class="meta-item">
+            <span class="meta-label">Coach</span>
+            <span class="meta-value">Sandeep Mitra</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Synopsis Section -->
+    <section class="section" id="synopsis">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Project Synopsis</h2>
+          <p class="section-subtitle">A brief overview of what we're building</p>
+        </div>
+          <div class="card synopsis-card">
+            <div class="card-header">
+              <h3>Overview</h3>
+            </div>
+            <p class="synopsis-text">
+                CodeSwtch Capital Ventures provides tools for founders and Entrepreneur Support Organizations (ESOs) to systematically measure and improve their accumulated capital across five key areas. Team CodeSwtch (US) will develop CodeSwtch Capital 360™, a modern web app that will deliver a personalized assessment with a roadmap and actionable insights. Team CodeSwitch will prioritize automated scoring algorithms based on existing models, as well as core user authentication and data storage functionality, for our MVP functionality.
+            </p>
+            <p class="synopsis-text">
+                The MVP will focus on the Individual Founder assessment with user authentication, a dashboard interface, scored results, and recommendations. Future sprints will add payment processing, ESO management portals, and AI-powered assessment proctoring as time allows and requirements shift. Our overarching goal is to reduce venture failure rates by providing founders with clear visibility into overlooked capital.
+            </p>
+          </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="section section-alt" id="team">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Meet the Team</h2>
+        </div>
+        <div class="team-grid">
+          <div class="team-card">
+            <div class="team-avatar">
+              <span>AB</span>
+            </div>
+            <h3 class="team-name">Aitan Bachrach</h3>
+            <span class="team-role">Project Manager</span>
+          </div>
+          <div class="team-card">
+            <div class="team-avatar">
+              <span>JF</span>
+            </div>
+            <h3 class="team-name">Jarett Forzano</h3>
+            <span class="team-role">Sponsor Communication Lead</span>
+          </div>
+          <div class="team-card">
+            <div class="team-avatar">
+              <span>UB</span>
+            </div>
+            <h3 class="team-name">Uttam Bhattarai</h3>
+            <span class="team-role">Scrum Master</span>
+          </div>
+          <div class="team-card">
+            <div class="team-avatar">
+              <span>MC</span>
+            </div>
+            <h3 class="team-name">Michael Camerato</h3>
+            <span class="team-role">Frontend Technical Lead</span>
+          </div>
+          <div class="team-card">
+            <div class="team-avatar">
+              <span>CB</span>
+            </div>
+            <h3 class="team-name">Coray Bennett</h3>
+            <span class="team-role">DevOps Technical Lead</span>
+          </div>
+          <div class="team-card">
+            <div class="team-avatar">
+              <span>YXL</span>
+            </div>
+            <h3 class="team-name">Yi Xhan Lin</h3>
+            <span class="team-role">Backend Technical Lead</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Time Tracking Section -->
+    <section class="section" id="time-tracking">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Weekly Time Tracking</h2>
+          <p class="section-subtitle">Individual and team effort reporting</p>
+        </div>
+
+        <div class="time-tracking-grid">
+          <!-- Left Column: Time Tracking Chart -->
+          <div class="card time-tracking-card">
+            <div class="card-header">
+              <h3>Weekly Overview</h3>
+            </div>
+
+            <div class="week-controls">
+              <button id="prevWeek" class="btn-nav" aria-label="Previous week">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m15 18-6-6 6-6"/>
+                </svg>
+              </button>
+              <span id="weekLabel" class="week-label"></span>
+              <button id="nextWeek" class="btn-nav" aria-label="Next week">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m9 18 6-6-6-6"/>
+                </svg>
+              </button>
+            </div>
+
+            <div class="chart-container">
+              <canvas id="timeChart"></canvas>
+            </div>
+
+            <div class="chart-stats">
+              <div class="stat-item">
+                <span class="stat-label">Team Total</span>
+                <span id="teamTotal" class="stat-value">0 hrs</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-label">Avg per Member</span>
+                <span id="avgPerMember" class="stat-value">0 hrs</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Time Tracking Entries List -->
+          <div class="card time-tracking-card">
+            <div class="card-header">
+              <h3 id="entriesWeekLabel">Recent Entries</h3>
+              <p class="card-subtitle">Add entries manually in <a href="https://docs.google.com/spreadsheets/d/1FRFc1qk-Pp2To3NHKslHLlG2VWNnd1AVSoL-krI-xBg/edit" target="_blank" rel="noopener noreferrer" class="sheet-link">Google Sheets</a> or use the <a href="https://forms.gle/SBGmzWsqGgmx2LxA6" target="_blank" rel="noopener noreferrer" class="sheet-link">Google Form</a>.</p>
+            </div>
+
+            <div id="entriesList" class="entries-list">
+              <p class="no-entries">No entries yet</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
